@@ -2,8 +2,8 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor DP-0 -d I III IV V VI
-bspc monitor HDMI-O -d II
+#bspc monitor DP-0 -d I III IV V VI
+#bspc monitor HDMI-O -d II
 
 bspc config border_width         2
 bspc config window_gap          8
@@ -23,4 +23,4 @@ nitrogen --restore &
 picom &
 polybar bspwm & 
 lxpolkit &
-nm-applet &
+#nm-applet &
