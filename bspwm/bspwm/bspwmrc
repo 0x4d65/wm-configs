@@ -22,6 +22,5 @@ killall polybar
 nitrogen --restore &
 picom &
 polybar bspwm & 
-polybar hdmi &
 lxpolkit &
 nm-applet &
